@@ -30,29 +30,7 @@ Backend-разработка, информационная безопаснос�
 
 ---
 
-### Остальные проекты
 
-**Безопасность и сети**
-
-- [zero-trust-auth-gateway](https://github.com/JustTheBear/zero-trust-auth-gateway) - аутентификация, двухфакторная проверка, ротация токенов и разграничение доступа.
-- [port-scanner-recon](https://github.com/JustTheBear/port-scanner-recon) - асинхронный сканер портов с анализом сетевых ответов и проверкой SSL/TLS-сертификатов.
-
-**Backend и распределённые системы**
-
-- [tournament-bracket-engine](https://github.com/JustTheBear/tournament-bracket-engine) - REST API и WebSockets для проведения турниров.
-- [async-job-queue](https://github.com/JustTheBear/async-job-queue) - очередь задач с пулами исполнителей, повторными попытками и Dead Letter Queue.
-
-**Frontend**
-
-- [fintech-terminal-ui](https://github.com/JustTheBear/fintech-terminal-ui) - торговый интерфейс с графиками и симуляцией биржевых данных.
-- [linear-kanban-board](https://github.com/JustTheBear/linear-kanban-board) - таск-трекер с перетаскиванием задач, фильтрацией и управлением состоянием.
-
-**Алгоритмы**
-
-- [algorithms-and-ds-handbook](https://github.com/JustTheBear/algorithms-and-ds-handbook) - сортировки, графы, деревья, структуры данных и алгоритмы на строках.
-- [algo-visualizer-cli](https://github.com/JustTheBear/algo-visualizer-cli) - визуализация алгоритмов сортировки в терминале.
-
----
 
 ### Направления разработки
 
