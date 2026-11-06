@@ -1,62 +1,76 @@
 # Jutreyk
 
-**Software Engineer & Tech Lead** · Бэкенд, Информационная безопасность, Распределенные системы & WebGL.  
-Студент НИУ ВШЭ (*Компьютерная безопасность*) и программы двух дипломов Финансового университета & МГТУ им. Н.Э. Баумана (*Цифровизация финансовых продуктов*). Экс-стажер VK по безопасности и middleware, основатель B2B-продуктов, призер ВсОШ и НТО.
+**Software Engineer · Backend & Security**
+
+Backend-разработка, информационная безопасность, распределённые системы и веб-интерфейсы.
+
+Студент НИУ ВШЭ (Компьютерная безопасность) и программы двух дипломов Финансового университета и МГТУ им. Н. Э. Баумана (Цифровизация финансовых продуктов). Экс-стажёр VK, разработчик B2B-продуктов. Призёр ВсОШ и НТО.
 
 [Личный сайт](https://arkadiygazizov.ru) · [Telegram](https://t.me/justthebear)
 
 ---
 
-### Специализация и стек
+### Стек и направления
 
-- **Backend & Systems**: Go, Python (FastAPI, Asyncio), C++20, PostgreSQL, Redis, Docker, WebSockets.
-- **Security & Infrastructure**: Zero-Trust архитектура, 2FA (RFC 6238 TOTP), ротация JWT-токенов, аудит уязвимостей, Linux, CI/CD.
-- **Frontend & Interfaces**: TypeScript, React 19, Tailwind CSS, Zustand, Lightweight Charts, дизайн-системы (Linear, Coinbase, Vercel).
-- **Core & Algorithms**: Олимпиадная база (ВсОШ, ЦПМ), структуры данных (Segment Tree, Fenwick, DSU, Trie), теория графов.
+- **Backend:** Go, Python, FastAPI, Asyncio, C++20, PostgreSQL, Redis, Docker, WebSockets.
+- **Security:** Zero Trust, JWT, TOTP, RBAC, аудит безопасности, Linux, CI/CD.
+- **Frontend:** TypeScript, React, Tailwind CSS, Zustand, Lightweight Charts.
+- **Algorithms:** структуры данных, теория графов, алгоритмы на строках и деревьях.
 
 ---
 
-### Pinned Projects
+### Основные проекты
 
 | Проект | Стек | Описание |
 | :--- | :--- | :--- |
-| [**tournament-bracket-engine**](https://github.com/JustTheBear/tournament-bracket-engine) | `Python`, `FastAPI`, `WebSockets`, `Docker` | движок генерации турнирных сеток с распределением слотов по силе посева и живой трансляцией матчей по WS |
-| [**zero-trust-auth-gateway**](https://github.com/JustTheBear/zero-trust-auth-gateway) | `Go`, `JWT`, `TOTP`, `RBAC`, `Crypto` | 2FA TOTP RFC 6238, ротация токенов с детекцией replay-атак и sliding-window rate limiting |
-| [**fintech-terminal-ui**](https://github.com/JustTheBear/fintech-terminal-ui) | `React 19`, `TypeScript`, `Tailwind`, `Charts` | свечные графики TradingView, живой биржевой стакан (order book) и лента сделок |
-| [**algorithms-and-ds-handbook**](https://github.com/JustTheBear/algorithms-and-ds-handbook) | `Python`, `Algorithms`, `Pytest`, `Rich` | Lazy Segment Tree, Fenwick, DSU, Tarjan SCC, KMP с бенчмарками |
+| [**tournament-bracket-engine**](https://github.com/JustTheBear/tournament-bracket-engine) | `Python`, `FastAPI`, `WebSockets`, `Docker` | Генерация турнирных сеток с учётом посева и трансляция результатов матчей в реальном времени. |
+| [**zero-trust-auth-gateway**](https://github.com/JustTheBear/zero-trust-auth-gateway) | `Go`, `JWT`, `TOTP`, `RBAC` | Сервис аутентификации с двухфакторной проверкой, ротацией токенов и контролем доступа. |
+| [**fintech-terminal-ui**](https://github.com/JustTheBear/fintech-terminal-ui) | `React`, `TypeScript`, `Tailwind` | Интерфейс торгового терминала с графиками, биржевым стаканом и лентой сделок. |
+| [**algorithms-and-ds-handbook**](https://github.com/JustTheBear/algorithms-and-ds-handbook) | `Python`, `Pytest` | Реализации алгоритмов и структур данных с тестами и замерами производительности. |
 
 ---
 
-### Инженерное портфолио по категориям
+### Остальные проекты
 
-#### Безопасность и сетевые инструменты:
-- [**zero-trust-auth-gateway**](https://github.com/JustTheBear/zero-trust-auth-gateway) - Production-grade сервис аутентификации на Go: защита от брутфорса, ротация refresh-токенов, RBAC-контроль доступа.
-- [**port-scanner-recon**](https://github.com/JustTheBear/port-scanner-recon) - Асинхронный сетевой сканер на `asyncio`: неблокирующий опрос сокетов (150+ воркеров), баннер-греббинг и валидация SSL/TLS x509 сертификатов.
+**Безопасность и сети**
 
-#### Бэкенд и распределённые системы:
-- [**tournament-bracket-engine**](https://github.com/JustTheBear/tournament-bracket-engine) — REST API + WebSockets платформа проведения чемпионатов с математическим посевом участников и графом продвижения победителей.
-- [**async-job-queue**](https://github.com/JustTheBear/async-job-queue) — Легковесная асинхронная очередь задач: пулы воркеров, экспоненциальные ретраи (exponential backoff) и Dead Letter Queue (DLQ).
+- [zero-trust-auth-gateway](https://github.com/JustTheBear/zero-trust-auth-gateway) — аутентификация, двухфакторная проверка, ротация токенов и разграничение доступа.
+- [port-scanner-recon](https://github.com/JustTheBear/port-scanner-recon) — асинхронный сканер портов с анализом сетевых ответов и проверкой SSL/TLS-сертификатов.
 
-#### Дизайн-системы и Frontend:
-- [**fintech-terminal-ui**](https://github.com/JustTheBear/fintech-terminal-ui) — Высокоплотный финансовый интерфейс спотовой торговли с графиками Lightweight Charts и симулятором тиков.
-- [**linear-kanban-board**](https://github.com/JustTheBear/linear-kanban-board) — Инженерный таск-трекер в эстетике Linear.app: доступный Drag-and-Drop на `@dnd-kit`, локальный стор на Zustand и мгновенная фильтрация.
+**Backend и распределённые системы**
 
-#### Алгоритмы и системная база:
-- [**algorithms-and-ds-handbook**](https://github.com/JustTheBear/algorithms-and-ds-handbook) — Полный справочник алгоритмов: 3-way QuickSort, MergeSort, Radix, Dijkstra, A*, Floyd-Warshall, Segment Tree с Lazy Propagation, Fenwick, DSU, Trie, KMP, Z-алгоритм.
-- [**algo-visualizer-cli**](https://github.com/JustTheBear/algo-visualizer-cli) — Терминальный ASCII-визуализатор сортировок в реальном времени на базе `rich.live`.
+- [tournament-bracket-engine](https://github.com/JustTheBear/tournament-bracket-engine) — REST API и WebSockets для проведения турниров.
+- [async-job-queue](https://github.com/JustTheBear/async-job-queue) — очередь задач с пулами исполнителей, повторными попытками и Dead Letter Queue.
+
+**Frontend**
+
+- [fintech-terminal-ui](https://github.com/JustTheBear/fintech-terminal-ui) — торговый интерфейс с графиками и симуляцией биржевых данных.
+- [linear-kanban-board](https://github.com/JustTheBear/linear-kanban-board) — таск-трекер с перетаскиванием задач, фильтрацией и управлением состоянием.
+
+**Алгоритмы**
+
+- [algorithms-and-ds-handbook](https://github.com/JustTheBear/algorithms-and-ds-handbook) — сортировки, графы, деревья, структуры данных и алгоритмы на строках.
+- [algo-visualizer-cli](https://github.com/JustTheBear/algo-visualizer-cli) — визуализация алгоритмов сортировки в терминале.
 
 ---
 
-```
-           +-------------------------------------------------------+
-           |                        Jutreyk                        |
-           |             Backend & Security Engineer               |
-           +---------------------------+---------------------------+
-                                       |
-        +------------------+-----------+-----------+------------------+
-        |                  |                       |                  |
-        v                  v                       v                  v
-  [ Безопасность ]    [ Бэкенд ]              [ Frontend ]       [ Алгоритмы ]
-  - Zero-Trust Go     - Tournament Engine     - Coinbase UI      - Handbook & Bench
-  - Async Recon       - Distributed Queue     - Linear Kanban    - CLI Visualizer
+### Направления разработки
+
+```text
+                         Jutreyk
+                 Software Engineer
+                          |
+       +------------------+------------------+
+       |                  |                  |
+       v                  v                  v
+  Безопасность          Backend           Frontend
+  Go, JWT, TOTP         Go, Python        React, TS
+  Zero Trust            PostgreSQL        Web Interfaces
+       |                  |                  |
+       +------------------+------------------+
+                          |
+                          v
+                     Алгоритмы
+                  Data Structures
+                   Graph Theory
 ```
