@@ -55,4 +55,4 @@ Backend-разработка, информационная безопаснос�
 
 
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jutreyk&layout=donut&theme=dark&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jutreyk&layout=compact&theme=dark&hide_border=true)
