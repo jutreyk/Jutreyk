@@ -52,3 +52,7 @@ Backend-разработка, информационная безопаснос�
                   Data Structures
                    Graph Theory
 ```
+
+
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jutreyk&layout=donut&theme=dark&hide_border=true)
